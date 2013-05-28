@@ -182,8 +182,7 @@ if has("gui_running")
   colorscheme peaksea
   set nonu
 else
-"  colorscheme zellner
-colorscheme 256jungle
+  colorscheme 256jungle
   set background=dark
 
 " 设置支持的颜色数
@@ -641,8 +640,6 @@ function ClosePair(char)
     endif
 endf
 
-colorscheme 256jungle 
-
 
 " 解决从windows拷贝过来的GBK格式乱码
 " let &termencoding=&encoding
@@ -849,6 +846,8 @@ if has("cscope")
     "set ttimeoutlen=100
 
 endif
+
+colorscheme 256jungle
 
 " 映射 esc 键为 aa
 imap aa <esc>
